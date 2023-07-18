@@ -90,8 +90,12 @@ nav a {
     gap: 60px;
     justify-content: center;
     padding: 35px 0;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(135deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100% ) 1;
+    border-left: none;
+    border-right: none;
+
 }
 
 
